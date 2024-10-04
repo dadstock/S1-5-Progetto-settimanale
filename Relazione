@@ -1,0 +1,28 @@
+ENG
+(screen0.PNG)
+In the first ping the PCs, being on the same network (192.168.72.2 >> 192.168.27.6), can communicate freerly using just the Switch, as there no VLANs.
+
+(screen1.PNG)
+In the second ping the PCs, are segmented into multiple VLANs, so they can no longer communicate with each other. In fact, PC0, which is part of VLAN10 (Dirigente Scolastico), can not communicate anymore
+with PC1, wich is part of VLAN30 (Personale ATA)
+
+(screen2.PNG)
+In the third ping, Laptop1 and Laptop2 can communicate freerly each other, because they are both in the same VLAN20 (Collegio Docenti)
+
+We use VLANs to create networks that are less vulnerable. In fact if an attacker gains access to a specif network, the segmentation provided by VLANs makes it much more difficult for the intrude to move between
+the networks.
+---------------
+ITA
+(screen0.PNG)
+Nel primo ping i PC essendo della stessa rete (192.168.72.2 >> 192.168.27.6), comunicano tranquillamente solo mediante l'utilizzo dello Switch, non essendoci le VLAN.
+
+(screen1.PNG)
+Nel secondo ping i PC essendo segmentati in più VLAN, non potranno comunicare più tra di loro. Infatti PC0 facendo parte della VLAN10 (Dirigente Scolastico) non comunica più con PC1 che fa parte della 
+VLAN30 (Personale ATA)
+
+(screen2.PNG)
+Nel terzo ping, Laptop1 comunica tranquillamente con Laptop2 perché fanno parte della stessa VLAN20 (Collegio Docenti)
+
+Utilizziamo le VLAN, per avere reti meno vulnerabili in caso un attaccante dovesse entrare in una determinata rete, essendoci la segmentazione data dalle VLAN, sarà molto più difficile per il 
+malintezionato passare tra le reti.
+
